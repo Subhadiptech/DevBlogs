@@ -16,16 +16,11 @@ import kotlinx.coroutines.*
 class SplashFragment : Fragment() {
     private lateinit var binding: FragmentSplashBinding
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentSplashBinding.inflate(layoutInflater)
+        binding = FragmentSplashBinding.inflate(inflater, container, false)
         return binding.root
     }
 
