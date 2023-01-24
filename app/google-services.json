@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592651089696",
+    "project_id": "droidblogs-e0995",
+    "storage_bucket": "droidblogs-e0995.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592651089696:android:f015a7779eea485f4e4945",
+        "android_client_info": {
+          "package_name": "com.ersubhadip.devblogs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592651089696-aoab4o6rafb0uujl3vqr07drttiee7tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcgdH-_1VLluoyFdZ5irtmegkoPK-mB58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592651089696-aoab4o6rafb0uujl3vqr07drttiee7tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
