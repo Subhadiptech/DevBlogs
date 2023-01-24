@@ -9,6 +9,8 @@ import androidx.compose.runtime.DisposableEffect
 import androidx.navigation.fragment.findNavController
 import com.ersubhadip.devblogs.R
 import com.ersubhadip.devblogs.databinding.FragmentSplashBinding
+import com.ersubhadip.devblogs.helpers.launchOnIo
+import com.ersubhadip.devblogs.helpers.runOnMain
 import kotlinx.coroutines.*
 
 class SplashFragment : Fragment() {
@@ -31,9 +33,12 @@ class SplashFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        GlobalScope.launch(Dispatchers.Main) {
-            delay(2000L)
-            findNavController().navigate(R.id.action_splashFragment_to_homeFragment)
+        launchOnIo {
+            delay(3000L)
+            runOnMain {
+                findNavController().navigate(R.id.action_splashFragment_to_homeFragment)
+            }
+
         }
     }
 }
