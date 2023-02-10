@@ -1,4 +1,4 @@
-package com.ersubhadip.devblogs.helpers
+package com.ersubhadip.devblogs.domain.helpers
 
 import kotlinx.coroutines.*
 

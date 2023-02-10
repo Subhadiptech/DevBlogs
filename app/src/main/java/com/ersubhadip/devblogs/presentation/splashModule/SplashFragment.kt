@@ -9,8 +9,8 @@ import androidx.compose.runtime.DisposableEffect
 import androidx.navigation.fragment.findNavController
 import com.ersubhadip.devblogs.R
 import com.ersubhadip.devblogs.databinding.FragmentSplashBinding
-import com.ersubhadip.devblogs.helpers.launchOnIo
-import com.ersubhadip.devblogs.helpers.runOnMain
+import com.ersubhadip.devblogs.domain.helpers.launchOnIo
+import com.ersubhadip.devblogs.domain.helpers.runOnMain
 import kotlinx.coroutines.*
 
 class SplashFragment : Fragment() {
