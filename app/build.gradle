@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace 'com.ersubhadip.devblogs'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.ersubhadip.devblogs"
         minSdk 27
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
